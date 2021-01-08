@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #7dbafe;
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    width: 500px;
+    margin: 20px;
+    height: 500px;
+    background-color: #fff;
+}
+.note .tools{
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.note .tools button{
+    background-color: transparent;
+    border: #fff;
+    border: none;
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+.note .main{
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    /* display: none; */
+}
+.add{
+    background-color: #9ec862;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+.note textarea{
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+outline: none;
+}
+.note .hidden{
+    display: none;
+} 
+
